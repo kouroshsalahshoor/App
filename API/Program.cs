@@ -1,4 +1,6 @@
 using API.Data;
+using API.Services;
+using API.Services.IServices;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -24,6 +26,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 //    ;
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddScoped<IProductRepository, ProductRepository>();   
 
 var app = builder.Build();
 
