@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuto", "BlazorAuto\Bl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuto.Client", "BlazorAuto\BlazorAuto.Client\BlazorAuto.Client.csproj", "{8C77D631-8E1B-47FA-AAA9-E062858C82C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{FCFE4873-AA1E-4EC9-883C-E5360FC42E1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{8C77D631-8E1B-47FA-AAA9-E062858C82C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C77D631-8E1B-47FA-AAA9-E062858C82C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C77D631-8E1B-47FA-AAA9-E062858C82C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCFE4873-AA1E-4EC9-883C-E5360FC42E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCFE4873-AA1E-4EC9-883C-E5360FC42E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCFE4873-AA1E-4EC9-883C-E5360FC42E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCFE4873-AA1E-4EC9-883C-E5360FC42E1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
